@@ -1,0 +1,18 @@
+name: ItemFlipPlugin
+version: '1.0'
+main: com.itemflip.ItemFlipPlugin
+api-version: '1.21'
+author: YourName
+description: A plugin that allows players to flip items in a GUI-based gambling system
+commands:
+  itemflip:
+    description: Main command for the Item Flip plugin
+    usage: /<command> [create/join/help]
+    aliases: [iflip, if]
+permissions:
+  itemflip.use:
+    description: Allows players to use the item flip feature
+    default: true
+  itemflip.admin:
+    description: Allows players to use admin commands
+    default: op 

@@ -1,0 +1,41 @@
+# ItemFlipPlugin Configuration
+# Made by alexetrey ( Dmme if any problem)
+# Messages
+messages:
+  prefix: "&8[&5ItemFlip&8] &r"
+  no-permission: "&cYou don't have permission to use this command!"
+  game-created: "&aGame created! Players can join using /itemflip join %player%"
+  game-joined: "&aYou joined %player%'s game! The flip will begin shortly..."
+  game-cancelled: "&eYour game has been cancelled."
+  game-not-found: "&cGame not found!"
+  already-in-game: "&cYou are already in a game!"
+  insufficient-items: "&cYou don't have the required items to join this game!"
+  winner-message: "&a🎉 You won the item flip against %player%!"
+  loser-message: "&cBetter luck next time! %player% won the flip!"
+
+# Game Settings
+settings:
+  # Time in seconds before the flip occurs after a player joins
+  flip-delay: 3
+  
+  # Whether to broadcast game results to all online players
+  broadcast-results: false
+  
+  # Whether to play sound effects
+  sound-effects: true
+  
+  # Whether to show particle effects
+  particle-effects: true
+
+# GUI Settings
+gui:
+  title: "&5Item Flip - Select Your Stake"
+  confirm-button:
+    enabled:
+      name: "&aClick to Create Game!"
+      material: GREEN_STAINED_GLASS_PANE
+    disabled:
+      name: "&cPlace an item to stake!"
+      material: RED_STAINED_GLASS_PANE
+  background:
+    material: BLACK_STAINED_GLASS_PANE 
